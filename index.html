@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--- padrão de caracteres escritos na página. --->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Compatibilidade com navegadores-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css"> <!--Estilização do Site-->
+    <link rel="stylesheet" href="styles/fonts.css"> <!--Fontes personalizadas-->
+    <title>Landing Page</title>
+</head>
+<body>
+    <!-- Nesse vou utilizar apenas Tags semanticas, evitando utilizar div ao máximo -->
+    <header> <!--cabeçalho-->
+        <div class="title">
+            <h1>Aprendendo</h1>  <!--Titulos e subtitulos são utilizados h1, h2, h3...-->
+            <h1>HTML & CSS</h1>
+        </div>
+
+        <ul> <!--"ul" é uma lista ordenada, que não necessariamente tem uma ordem como "1, 2, 3..."-->
+            <a href="#"><li>Início</li></a> <!--O elemento "li" é utilizado para itens que estão sendo listados. O elemento "a" é utilizado para Ancoragem, para linkar o item-->
+            <a href="#"><li>Serviços</li></a>
+            <a href="#"><li>Sobre</li></a>
+            <a href="#"><li>Contato</li></a>
+            <a href="#" id="inscreva-se-btn"><li>Ja tem uma conta?</li></a>
+        </ul>
+    </header>
+
+    <main> <!--O elemento "main" é o conteúdo principal do site, geralmente a parte de destaque.-->
+        <aside> <!--O elemento "aside" representa uma seção do site, geralmente usado para dividir um lado do site. -->
+            <h2><span>Inscreva-se Agora</span></h2>
+            <h2>Na 1ª Temporada</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <form action=""> <!--O elemento "form" serve para colocar controles interativos que o usuário pode inserir dados-->
+                <input type="text" placeholder="Insira seu nome">
+                <input type="email"placeholder="Insira seu E-mail">
+                <input type="submit" value="Enviar >">
+            </form>
+        </aside>
+
+        <article>
+            <img src="components/images/77d0a7c454e658833800528e748edbe9.png" alt="Mulher-roxa ">
+        </article>
+    </main>
+    
+</body>
+</html>
